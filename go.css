@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    /* margin: 10px; */
+    padding: 0;
+    /* border: 1px blue solid; */
+}
+
+body {
+    background-color: rgb(243,250,255);
+}
+
+#nav {
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.435);
+    box-shadow: 1px 3px 12px rgba(40, 53, 55, 0.449);
+
+}
+
+ li {
+    border-radius: 70px !important;
+    height: 33px;
+    box-shadow: 1px 3px 8px 1px rgb(21, 174, 195);
+
+
+
+}
+
+  li:hover {
+    background-color: rgb(21, 174, 195) !important;
+    border: solid transparent 1px !important;
+    text-decoration: underline 1px white solid;
+
+}
+
+
+li a small {
+    font-size: 12px !important;
+}
+
+.re {
+
+    width: 6%;
+    height: 6px;
+    background-color: RGB(13, 100, 133);
+}
+
+h6 {
+    line-height: 1.7;
+
+}
+#pill{
+    background-color:rgb(57,179,215) ;
+    box-shadow: 0px 3px 1px 1px rgb(120,125,237);
+}
+
+.ii{
+    border: solid 1px rgba(128, 128, 128, 0.565);
+    width: 40px;
+    height: 50px;
+    box-shadow: 0px 0px 6px 1px rgb(120,125,237);
+}
+
+#reo{
+    z-index: 2;
+    
+}
+#card{
+    border-radius: 10px;
+    /* position: relative; */
+}
+
+#green{
+    margin-top: -440px;
+    /* height: 500px; */
+}
+#green section{
+    margin-top: 250px;
+}
+
+#green section #pic{
+background-image: url(./images/SeekPng.com_hand-png_75232.png);
+background-repeat: no-repeat;
+/* background-position-x: right; */
+background-position-y: 130px;
+
+}
+.navbar img{
+    /* margin: top -240px; */
+    /* width: 100%; */
+    /* background-color: red; */
+    /* height: 60px; */
+}
+
+
+
+#gs{
+    color: rgb(0,194,34);
+    font-family: sans-serif;
+}
+.circle{
+    /* border: solid 1px green; */
+    position:relative;
+    bottom: 50px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 6px 1px rgb(120,125,237);
+
+
+}
+#ye
+{
+    width: 100%;
+    background-color: black;
+    height: 180px;
+    background-image: url(./images/images\ \(1\).jpg);
+    filter:  invert(1%);
+}
+
+.circle:hover{
+   
+    background-color:rgb(57,179,215) ;
+}
+svg {
+    fill: black;
+}
+
+
+#end{
+    border: none !important;
+    border-radius: 0%;
+   box-shadow: none;
+  
+   list-style: none;
+}
+
+#end:hover{
+    background-color: transparent !important;
+}
+
+#end a{
+    text-decoration: none;
+    
+color: rgba(255, 255, 255, 0.679);
+}
+
+#end a:hover{
+    color: rgba(77, 255, 0, 0.687);
+}
+
+#join{
+
+}
+
+#join:hover{
+    color: white;
+    text-decoration: underline solid 1px white;
+}
+
+footer hr{
+    color: rgb(0, 1, 2);
+    
+    
+}
+footer{
+   color:white;
+    font-size: smaller;
+}
