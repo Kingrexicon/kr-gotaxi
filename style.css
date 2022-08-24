@@ -1,140 +1,370 @@
 * {
-    /* border: solid blue 1px; */
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    /* margin: 10px; */
+    padding: 0;
+    /* border: 1px blue solid; */
 }
 
-#div{
-    background-image: url(/images/Card3_n9kqin.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: bottom;
-    background-size: 400px auto;
+body {
+    background-color: rgb(243,250,255);
 }
 
 
 #nav {
-    /* background-color: rgb(247,246,244) ; */
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.435);
+    box-shadow: 1px 3px 12px rgba(40, 53, 55, 0.449);
+
+
 }
 
-a {
-    text-decoration: none;
+ li {
+    border-radius: 70px !important;
+    height: 33px;
+    box-shadow: 1px 3px 8px 1px rgb(21, 174, 195);
+
+
+
 }
 
-#naved{
-    z-index: 4;
-    border: solid 1px green;
-    position: fixed;
-    top: 0;
+  li:hover {
+    background-color: rgb(21, 174, 195) !important;
+    border: solid transparent 1px !important;
+    text-decoration: underline 1px white solid;
+
 }
+
 
 li a small {
-    font-weight: 800 !important;
-    /* min-width: 1000px !important; */
-    font-size: 80%;
-    /* border: 1px solid gray; */
+    font-size: 12px !important;
 }
 
-::placeholder :nth-child(1) {
-    font-weight: 700;
-    padding-right: 30px;
-    color: rgb(176, 184, 194);
+.re {
+
+    width: 6%;
+    height: 6px;
+    background-color: RGB(13, 100, 133);
+}
+
+h6 {
+    line-height: 1.7;
+
+}
+#pill{
+    background-color:rgb(57,179,215) ;
+    box-shadow: 0px 3px 1px 1px rgb(120,125,237);
+}
+
+.ii{
+    border: solid 1px rgba(128, 128, 128, 0.565);
+    width: 40px;
+    height: 50px;
+    box-shadow: 0px 0px 6px 1px rgb(120,125,237);
+}
+
+#reo{
+    z-index: 2;
+    
+}
+#card{
+    border-radius: 10px;
+    /* position: relative; */
+}
+
+#green{
+    margin-top: -440px;
+    /* height: 500px; */
+}
+
+#green section{
+    margin-top: 250px;
+}
+
+#green section #pic{
+background-image: url(./images/SeekPng.com_hand-png_75232.png);
+background-repeat: no-repeat;
+/* background-position-x: right; */
+position: relative;
+z-index: 3;
+background-position-y: 130px;
+background-position-x: 60px;
+
+
+}
+#pic #dv{
+    /* border: 1px red solid; */
+    height: 450px;
+    width: 212px;
+    border-radius: 15px;
+    position: absolute;
+    top: 145px;
+    left:112px
+
+
+}
+
+/* navbar img{
+     margin: top -240px; 
+     width: 100%; 
+    background-color: red; 
+    height: 60px; 
+}  */
+
+
+
+#gs{
+    color: rgb(0,194,34);
     font-family: sans-serif;
 }
-::placeholder :nth-child(2) {
-    font-weight: 300;
-    padding-right: 30px;
-    color: rgb(176, 184, 194);
-    font-family: sans-serif;
+.circle{
+    /* border: solid 1px green; */
+    position:relative;
+    bottom: 50px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 6px 1px rgb(120,125,237);
+
+
+}
+#ye
+{
+    width: 100%;
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    position: relative;
+    bottom: 145px;
+    /* background-color: black; */
+height: 150px;
+    background-image: url(./images/banner.png);
+    
+}
+
+.circle:hover{
+   
+    background-color:rgb(57,179,215) ;
+}
+svg {
+    fill: black;
 }
 
 
-.rounded-pill {
-    border: 1px rgba(0, 0, 0, 0.458) solid;
+#end{
+    border: none !important;
+    border-radius: 0%;
+   box-shadow: none;
+  
+   list-style: none;
 }
 
-@keyframes drop {
-    0% {}
+#end:hover{
+    background-color: transparent !important;
+}
 
-    50% {
-        transition: ease-in;
-        background-color: rgb(247, 247, 242);
+#end a{
+    text-decoration: none;
+    
+color: rgba(255, 255, 255, 0.679);
+}
+
+#end a:hover{
+    color: rgba(77, 255, 0, 0.687);
+}
+
+#join{
+
+}
+
+#join:hover{
+    color: white;
+    text-decoration: underline solid 1px white;
+}
+
+footer hr{
+    color: rgb(0, 1, 2);
+    
+    
+}    
+footer{
+   color:white;
+    font-size: smaller;
+}
+#ani{
+    /* background-color: white; border-radius: 10px 10px; */
+    animation-name: back;
+    animation-iteration-count: infinite;
+    animation-duration: 7.4s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-delay: 0ms;
+}
+
+@keyframes back {
+    0%{
+background-color: rgb(111, 112, 113);
+border-radius: 8px;
+    }
+    50%{
+        background-color: transparent;
+    }
+
+    100%{
+        background-color: transparent;
+    }
+}
+
+
+
+
+#ai{
+    /* background-color: white; border-radius: 10px 10px; */
+    animation-name: back3;
+    animation-iteration-count: infinite;
+    animation-duration: 7.4s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-delay: 0ms;
+}
+
+@keyframes back3 {
+    0%{
+background-color: transparent;
+    }
+    50%{
+        background-color: rgb(101, 102, 104);
+     border-radius: 8px ;
 
     }
 
-
+    100%{
+        background-color: transparent;
+    }
 }
 
-#nave {
-    animation-name: drop;
-    animation-iteration-count: 1;
-
-    animation-duration: 5;
+#an{
+    /* background-color: white; border-radius: 10px 10px; */
+    animation-name: backr;
+    animation-iteration-count: infinite;
+    animation-duration: 7.4s;
     animation-fill-mode: forwards;
-    position: sticky;
-    top: 0;
-    z-index: 3;
-
-    width: 100%;
-    scroll-margin-top: 70px;
-}
-
-#cardim {
-    min-height: 150px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-#cardim:hover {
-   /* background-size: 120%; */
-   background-size: 110% 110%;
-   background-position: center;
-   
+    animation-play-state: running;
+    animation-delay: 0ms;
 }
 
 
+@keyframes backr {
+    0%{
+background-color: transparent;
+    }
+    50%{
+        background-color: transparent;
+    }
+
+    100%{
+        background-color: rgb(109, 113, 116);
+        border-radius: 8px;
+    }
+}
 
 
-@media all and (max-width:767px) {
-    #sun {
+@media all and (max-width:992px) {
+
+    #pic #dv{
         display: none;
     }
+    
+}
 
-   #need{
-       display: none;
-   }
-   #naved{
-    z-index: 4;
-    border: solid 1px green;
+
+
+
+
+
+
+.car {
+
     position: relative;
-    top: 120px;
-   }
-   #eee{
-       width: 80% !important;
-   }
-
-
-  
+    width: 100%;
+    height: 303px;
+    background: url(./images/animation.png) center bottom no-repeat;
+    background-size: cover;
 }
 
-@media all and (max-width:700px) {
-    #div{
-        background-image: none;
+.car .box-vehicles {
+    position: relative;
+    z-index: 2;
+}
+.car .box-vehicles .vehicles1 {
+    background: url(./images/vehicle1.png);
+    animation: footer-vehicles-right 50s linear infinite;
+}
+.car .box-vehicles .vehicles {
+    top: 200px;
+    height: 107px;
+    position: absolute;
+    width: 100%;
+}
+@keyframes footer-vehicles-right{
+0% {
+    background-position: 0 0;
+}
+
+100% {
+    background-position: 3446px 0;
+}
+}
+.scene .box-vehicles .vehicles2 {
+    background: url(./images/vehicle2.png);
+    animation: footer-vehicles-right 20s linear infinite;
+}
+.scene .box-vehicles .vehicles {
+    top: 200px;
+    height: 107px;
+    position: absolute;
+    width: 100%;
+}
+@keyframes footer-vehicles-right{
+0% {
+    background-position: 0 0;
+}
+
+100% {
+    background-position: 3446px 0;
+}
+}
+.car .box-vehicles .vehicles3 {
+    background: url(./images/vehicle3.png);
+    animation: footer-vehicles-left 15s linear infinite;
+}
+.car .box-vehicles .vehicles {
+    top: 200px;
+    height: 107px;
+    position: absolute;
+    width: 100%;
+}
+@keyframes footer-vehicles-left{
+    0%{
+        background-position: 0 0;
     }
-
-
-    #cardim {
-        min-height: 300px;
+    100%{
+        background-position: -3446px 0;
+    }
+}
+.car .box-vehicles .vehicles2 {
+    background: url(./images/vehicle2.png);
+    animation: footer-vehicles-right 20s linear infinite;
+}
+.car .box-vehicles .vehicles {
+    top: 200px;
+    height: 107px;
+    position: absolute;
+    width: 100%;
+}
+@keyframes footer-vehicles-right{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 3446px 0;
     }
 }
 
-#eee{
-    border: none;
-}
-
-
-
-#for{
-    color: rgb(35, 60, 93);
-    text-decoration: underline solid 1px rgb(35, 60, 93);
-}

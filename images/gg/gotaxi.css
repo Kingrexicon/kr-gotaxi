@@ -1,0 +1,88 @@
+
+.car {
+
+    position: relative;
+    width: 100%;
+    height: 303px;
+    background: url(./animation.png) center bottom no-repeat;
+    background-size: cover;
+}
+
+.car .box-vehicles {
+    position: relative;
+    z-index: 2;
+}
+.car .box-vehicles .vehicles1 {
+    background: url(./vehicle1.png);
+    animation: footer-vehicles-right 50s linear infinite;
+}
+.car .box-vehicles .vehicles {
+    top: 200px;
+    height: 107px;
+    position: absolute;
+    width: 100%;
+}
+@keyframes footer-vehicles-right{
+0% {
+    background-position: 0 0;
+}
+
+100% {
+    background-position: 3446px 0;
+}
+}
+.scene .box-vehicles .vehicles2 {
+    background: url(./vehicle2.png);
+    animation: footer-vehicles-right 20s linear infinite;
+}
+.scene .box-vehicles .vehicles {
+    top: 200px;
+    height: 107px;
+    position: absolute;
+    width: 100%;
+}
+@keyframes footer-vehicles-right{
+0% {
+    background-position: 0 0;
+}
+
+100% {
+    background-position: 3446px 0;
+}
+}
+.car .box-vehicles .vehicles3 {
+    background: url(./vehicle3.png);
+    animation: footer-vehicles-left 15s linear infinite;
+}
+.car .box-vehicles .vehicles {
+    top: 200px;
+    height: 107px;
+    position: absolute;
+    width: 100%;
+}
+@keyframes footer-vehicles-left{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: -3446px 0;
+    }
+}
+.car .box-vehicles .vehicles2 {
+    background: url(./vehicle4.png);
+    animation: footer-vehicles-right 20s linear infinite;
+}
+.car .box-vehicles .vehicles {
+    top: 200px;
+    height: 107px;
+    position: absolute;
+    width: 100%;
+}
+@keyframes footer-vehicles-right{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 3446px 0;
+    }
+}
